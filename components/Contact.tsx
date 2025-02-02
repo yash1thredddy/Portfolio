@@ -6,7 +6,7 @@ import Image from "next/image";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
-const Contact = () => {
+export default function Contact() {
     const [values, setValues] = useState({
         name: "",
         email: "",
@@ -15,14 +15,16 @@ const Contact = () => {
     const [loading, setLoading] = useState(false);
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault(); // Prevent form from submitting traditionally
+        e.preventDefault();
+        e.stopPropagation();  // Stop event propagation
 
         if (!values.name.trim() || !values.email.trim() || !values.message.trim()) {
-            toast.warning("Empty Fields!");
+            toast.warning("Please fill in all fields");
             return;
         }
 
         setLoading(true);
+
         try {
             const response = await fetch("/api/mail", {
                 method: "POST",
@@ -35,17 +37,14 @@ const Contact = () => {
             const data = await response.json();
 
             if (response.ok) {
-                // Clear form and show success message
-                setValues({ name: "", email: "", message: "" });
                 toast.success("Message sent successfully!");
+                setValues({ name: "", email: "", message: "" });
             } else {
-                // Show error message from server
-                toast.error(data.message || "Failed to send message");
+                throw new Error(data.message || "Failed to send message");
             }
         } catch (error) {
-            // Show error message for network/other errors
-            toast.error("Failed to send message. Please try again later.");
             console.error("Contact form error:", error);
+            toast.error(error instanceof Error ? error.message : "Failed to send message");
         } finally {
             setLoading(false);
         }
@@ -53,16 +52,20 @@ const Contact = () => {
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
-        setValues(prev => ({
-            ...prev,
-            [name]: value
-        }));
+        setValues(prev => ({ ...prev, [name]: value }));
     };
 
     return (
         <SectionWrapper id="contact" className="mb-16 mx-4 lg:mx-0">
             <h2 className="text-center text-4xl">Contact Me</h2>
-            <ToastContainer position="bottom-right" />
+            <ToastContainer 
+                position="bottom-right"
+                autoClose={5000}
+                hideProgressBar={false}
+                closeOnClick
+                pauseOnHover
+                draggable
+            />
 
             <div className="w-full lg:w-5/6 2xl:w-3/4 mt-10 md:mt-16 mx-auto flex justify-between rounded-xl">
                 <Image 
@@ -81,36 +84,40 @@ const Contact = () => {
                         My inbox is always open! 💌 Whether you&apos;ve got a burning question or want to drop a friendly &quot;hello&quot;, I&apos;m all ears!👂 Let&apos;s chat! 🎉
                     </p>
 
-                    <form onSubmit={handleSubmit} className="flex flex-col gap-4 rounded-xl">
+                    <form 
+                        onSubmit={handleSubmit} 
+                        className="flex flex-col gap-4 rounded-xl"
+                        noValidate
+                    >
                         <input 
                             onChange={handleChange} 
-                            required 
                             value={values.name} 
                             name="name" 
                             type="text" 
                             placeholder='Full Name *' 
                             className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" 
                             disabled={loading}
+                            required
                         />
                         <input 
                             onChange={handleChange} 
-                            required 
                             value={values.email} 
                             name="email" 
                             type="email" 
                             placeholder='Email *' 
                             className="outline-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" 
                             disabled={loading}
+                            required
                         />
                         <textarea 
                             onChange={handleChange} 
-                            required 
                             value={values.message} 
                             name="message" 
                             rows={4} 
                             placeholder='Message *' 
                             className="outline-none resize-none bg-gray-100 dark:bg-grey-800 placeholder-gray-400 rounded-lg py-3 px-4" 
                             disabled={loading}
+                            required
                         />
                         <button 
                             type="submit"
@@ -130,6 +137,4 @@ const Contact = () => {
             </div>
         </SectionWrapper>
     );
-};
-
-export default Contact;
+}
