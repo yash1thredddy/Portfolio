@@ -1,0 +1,465 @@
+{
+  "about": {
+    "about": "I am a Software Engineer and application developer with data science expertise, currently pursuing a Master's in Computer Science at the University of Illinois, Chicago. My experience spans full-stack development, cloud technologies, machine learning, and data science. I have built and deployed scalable software applications, leveraging Java, Spring Boot, Python, React.js, and cloud platforms like AWS and Azure. My work includes developing AI-driven solutions, real-time data analytics platforms, and optimized backend architectures.I am a Software Engineer and application developer with data science expertise, currently pursuing a Master's in Computer Science at the University of Illinois, Chicago. My experience spans full-stack development, cloud technologies, machine learning, and data science. I have built and deployed scalable software applications, leveraging Java, Spring Boot, Python, React.js, and cloud platforms like AWS and Azure. My work includes developing AI-driven solutions, real-time data analytics platforms, and optimized backend architectures.",
+    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImageCaption": "< I build stuff 🚀/>",
+    "callUrl": "",
+    "resumeUrl": "https://drive.google.com/file/d/1XxBFjiPImAiSgk1wUd4vaoyWKfMkw4LB/view?usp=sharing",
+    "title": "Software Developer"
+  },
+  "educations": [
+    {
+      "degree": "Bachelor of Technology - Computer Science and Engineering",
+      "desc": [
+        "Acquired foundational knowledge in computer science principles, algorithms, and software development and Artificial Intelligence",
+        "Worked on multiple projects involving Java, SQL, python and web development, enhancing problem-solving and coding skills.",
+        "Familiar with Familiar with Agile and SDLC Methodologies"
+      ],
+      "duration": "2019 - 2023",
+      "institute": "Vellore Institute of Technology | India"
+    },
+    {
+      "degree": "Master of Science in Computer Science",
+      "desc": [
+        "Pursuing IT Engineering course from ABC University",
+        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
+        "Familiar with software development methodologies and project management practices, including Agile and Waterfall methodologies."
+      ],
+      "duration": "2023 - 2025",
+      "institute": "University of Illinois at Chicago"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "SimplyFi Softech | Bangalore, India",
+      "desc": [
+        "Innovated an AI-driven interactive experience for a metaverse platform, integrating speech-to-text and Large Language Models (GPT-3, LLaMA) using Python and REST APIs, maximized user engagement by 40% and boosting immersive experiences by 35%.",
+        "Built APIs for credit card data collection and architected real-time financial data visualization dashboards using Grafana.",
+        "Deployed the solution via Docker and Kubernetes, reducing product time-to-market by 20%.",
+        "Optimized backend processes for data analysis and crafted complete data pipeline, improving efficiency by 25% and elevated overall operational performance for a leading financial institution.",
+        "Skills: Java · Python · MySQL · NoSQL · Machine Learning · Generative AI · Kubernetes · RESTAPIs"
+      ],
+      "duration": "2022 -2023",
+      "position": "Software Engineer"
+    },
+    {
+      "company": "University of Illinois | Smature Lab | Chicago, Illinois",
+      "desc": [
+        "Orchestrated groundbreaking research on Physics-Informed Neural Networks (PINNs) and Generative Adversarial Networks (GANs), applying Python and TensorFlow to design advanced algorithms, driving a 30% improvement in model efficiency.",
+        "Skills: Python · TensorFlow ·  Pytorch · GAN's · PINN's · Generative AI"
+      ],
+      "duration": "Dec 2023 - May 2024",
+      "position": "Research Assistant"
+    },
+    {
+      "company": "University of Illinois | Chicago, USA",
+      "desc": [
+        "Developed an intelligent multi-agent system using RAG (Retrieval-Augmented Generation), vector databases, LlamaIndex, LangChain, and multiple LLMs to advance tuberculosis and natural product research by enabling efficient target identification, ligand exploration, and data analysis from chemical and biological databases.",
+        "Spearheaded the migration and rebuilt the LOTUS database to a modern, scalable architecture using React.js, TypeScript, PostgreSQL, and APIs, decreasing reliance on legacy systems by 60%.",
+        "Revitalized tuberculosis drug research by preprocessing and cleaning data, improving data integrity by 25%, and devised predictive models with Python and TensorFlow, enhanced model accuracy by 20%",
+        "Skills: Python · Java · SpringBoot · RESTAPI's ·  LLM's · RAG's ·  ETL ·  AWS · Neural Networks ·  RDKit ·  Machine Learning"
+      ],
+      "duration": "May 2024 - Present",
+      "position": "Graduate Research Assistant"
+    }
+  ],
+  "main": {
+    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "name": "Yashwanth Reddy",
+    "shortDesc": "I specialize in developing innovative, high-performance software solutions that are scalable and user-centric. With expertise in full-stack development, AI, Generative AI, machine learning, and cloud technologies, I focus on building impactful applications that meet client requirements while ensuring seamless performance and scalability.",
+    "techStackImages": [
+      "https://img.icons8.com/color/144/000000/material-ui.png",
+      "https://img.icons8.com/color/144/000000/html-5--v1.png",
+      "https://img.icons8.com/?size=150&id=lTKW3iI3wIT0&format=png&color=000000",
+      "https://img.icons8.com/?size=100&id=hGdCwhSHUe6L&format=png&color=000000"
+    ],
+    "titles": [
+      "Software Engineering",
+      "Data Science",
+      "Full Stack Development",
+      "Generative AI"
+    ]
+  },
+  "projects": [
+    {
+      "category": "Full Stack",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738457886/National_view_vzjc3q.png",
+      "links": {
+        "code": "https://github.com/yash1thredddy/CrashLens-Insights-into-US-Traffic-Collisions",
+        "video": "https://github.com/yash1thredddy/CrashLens-Insights-into-US-Traffic-Collisions",
+        "visit": "https://github.com/yash1thredddy/CrashLens-Insights-into-US-Traffic-Collisions"
+      },
+      "name": "CrashLens : Traffic Analytics and Visualization",
+      "techstack": "React.Js, Django, Python, PostgreSQL, AWS, Docker, Kubernetes"
+    },
+    {
+    "category": "Machine Learning",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738456946/nural_network_y6td5j.png",
+      "links": {
+        "code": "https://drive.google.com/file/d/1qNsywGi9YwJ0k908-4knyzHqyPFEvWfP/view?usp=sharing",
+        "video": "https://drive.google.com/file/d/1qNsywGi9YwJ0k908-4knyzHqyPFEvWfP/view?usp=sharing",
+        "visit": "https://drive.google.com/file/d/1qNsywGi9YwJ0k908-4knyzHqyPFEvWfP/view?usp=sharing"
+      },
+      "name": "Image Portraiture",
+      "techstack": "Python,Java,CNN,GAN's, RNN, PyTorch, TensorFlow"
+    }
+    
+  ],
+    "skills": [
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=lTKW3iI3wIT0&format=png&color=000000",
+      "name": "Java"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=hGdCwhSHUe6L&format=png&color=000000",
+      "name": "Python"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=40669&format=png&color=000000",
+      "name": "C++"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000",
+      "name": "R"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=45490&format=png&color=000000",
+      "name": "C#"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000",
+      "name": "JavaScript"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=nCj4PvnCO0tZ&format=png&color=000000",
+      "name": "TypeScript"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=7ej5ASIwdQXG&format=png&color=000000",
+      "name": "Go"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=50139&format=png&color=000000",
+      "name": "Shell Scripting"
+    },
+    {
+      "category": "Programming Languages",
+      "image": "https://img.icons8.com/?size=100&id=r5Y16PcDkoWI&format=png&color=000000",
+      "name": "Matlab"
+    },
+        {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=Rffi8qeb2fK5&format=png&color=000000",
+      "name": "Streamlit"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
+      "name": "Spring Boot"
+    },
+     {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=9uVrNMu3Zx1K&format=png&color=000000",
+      "name": "TensorFlow"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=jH4BpkMnRrU5&format=png&color=000000",
+      "name": "PyTorch"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1737948594/keras_k4dtlq.png",
+      "name": "Keras"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=9uVrNMu3Zx1K&format=png&color=000000",
+      "name": "Grafana"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=123603&format=png&color=000000",
+      "name": "React.js"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=54087&format=png&color=000000",
+      "name": "Node.js"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=WncR8Bcg5nE9&format=png&color=000000",
+      "name": "Terraform"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://www.knime.com/images/knime-logo.svg",
+      "name": "KNIME"
+    },
+       {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=KRA1PoZgRrca&format=png&color=000000",
+      "name": "GraphQL"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=F4uMFPZgS0gt&format=png&color=000000",
+      "name": "Django, Flask, FastAPI"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=apebs8fnmi4m&format=png&color=000000",
+      "name": "OpenCV"
+    },
+    {
+      "category": "Frameworks",
+      "image": "https://img.icons8.com/?size=100&id=g9mmSxx3SwAI&format=png&color=000000",
+      "name": "Bootstrap"
+    },
+    { 
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000",
+      "name": "MySQL"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=38561&format=png&color=000000",
+      "name": "PostgreSQL"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=74402&format=png&color=000000",
+      "name": "MongoDB (NoSQL)"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=pHS3eRpynIRQ&format=png&color=000000",
+      "name": "Redis"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000",
+      "name": "Elasticsearch"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=fOhLNqGJsUbJ&format=png&color=000000",
+      "name": "Kafka"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=0cRqPqlItA0E&format=png&color=000000",
+      "name": "Spark"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=17365&format=png&color=000000",
+      "name": "Snowflake"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=e6uRfPIDgoXi&format=png&color=000000",
+      "name": "Amazon Redshift"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000",
+      "name": "BigQuery"
+    },
+    {
+      "category": "Databases and Big Data",
+      "image": "https://img.icons8.com/?size=100&id=X10esLaMcBb3&format=png&color=000000",
+      "name": "ETL"
+    },
+        {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+      "name": "AWS"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=VLKafOkk3sBX&format=png&color=000000",
+      "name": "Azure"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000",
+      "name": "GCP"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=20906&format=png&color=000000",
+      "name": "Git"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000",
+      "name": "Docker"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000",
+      "name": "Kubernetes"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=39292&format=png&color=000000",
+      "name": "Jenkins"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=SJNUZD3A4el4&format=png&color=000000",
+      "name": "Ansible"
+    },
+    {
+      "category": "Cloud and DevOps",
+      "image": "https://img.icons8.com/?size=100&id=Y9Kxy8Xl1id8&format=png&color=000000",
+      "name": "AWS Lambda"
+    },
+        {
+      "category": "Machine Learning and AI",
+      "image": "https://img.icons8.com/?size=100&id=t3OkO0Hiiz0O&format=png&color=000000",
+      "name": "NeMo"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1737948594/LaamaIndex_khpj8x.webp",
+      "name": "LlamaIndex"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1737948594/Langchain_ixbrnl.png",
+      "name": "LangChain"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738455650/gans_z1m5xu.png",
+      "name": "GANs"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738455537/pinns_jfxl3u.png",
+      "name": "PINNs"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738456333/nural_network_ssu8zg.png",
+      "name": "Neural Networks"
+    },
+        {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738456333/transformers_wdb10s.png",
+      "name": "Transformer Models"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://img.icons8.com/?size=100&id=BQ1lJP4geUqU&format=png&color=000000",
+      "name": "Hugging Face"
+    },
+        {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1738456482/ollama_frpsoz.png",
+      "name": "Ollama"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://img.icons8.com/?size=100&id=mUBILbYvUMq8&format=png&color=000000",
+      "name": "Django (AI Deployment)"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://img.icons8.com/?size=100&id=NFQusZJ4neki&format=png&color=000000",
+      "name": "Vector Databases"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738455897/mlflow_a92tuj.png",
+      "name": "MLFlow"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738455970/RL_p7kbpy.png",
+      "name": "Reinforcement Learning"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/b_rgb:333B4C/v1738456636/automl_tv69ah.png",
+      "name": "AutoML"
+    },
+    {
+      "category": "Machine Learning and AI",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/t_automl/v1738456636/deepchem_dbtffp.png",
+      "name": "DeepChem"
+    },
+        {
+      "category": "Data Visualization and Tools",
+      "image": "https://img.icons8.com/?size=100&id=9Kvi1p1F0tUo&format=png&color=000000",
+      "name": "Tableau"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://img.icons8.com/?size=100&id=3sGOUDo9nJ4k&format=png&color=000000",
+      "name": "Power BI"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000",
+      "name": "Matplotlib  & Seaborn"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738456946/arrow_cjlrkg.png",
+      "name": "Apache Arrow"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738457080/Plotly-logo_f8kzoe.png",
+      "name": "Plotly Dash"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738457178/d3_ggwkod.jpg",
+      "name": "D3.js and Vegalite"
+    },
+
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://res.cloudinary.com/dx0h3igth/image/upload/v1738457490/mapbox_phu2rm.png",
+      "name": "Mapbox & deck.gl"
+    },
+    {
+      "category": "Data Visualization and Tools",
+      "image": "https://img.icons8.com/?size=100&id=117326&format=png&color=000000",
+      "name": "Postman"
+    }
+
+  ],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/yash1th26/"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/yash1thredddy"
+    },
+    {
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/_yash1th__/"
+    },
+    {
+      "icon": "FaTwitter",
+      "link": "https://x.com/Yash1th_reddy_"
+    }
+  ]
+}

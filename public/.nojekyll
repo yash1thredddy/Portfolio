@@ -1,0 +1,5 @@
+#!/bin/bash
+# Create .nojekyll in both public and out directories
+touch public/.nojekyll
+mkdir -p out
+touch out/.nojekyll
